@@ -1,0 +1,7 @@
+#WAP to chech k whether a number is even or odd
+num = int(input("enter the Number: "))
+
+if (num % 2 == 0):
+    print(f"{num} is Even")
+else:
+    print(f"{num} is Odd")
